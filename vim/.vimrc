@@ -1,0 +1,41 @@
+" .vimrc
+
+" Configuración general
+set title " Muestra el nombre del archivo en la ventana de la terminal
+set number " Muestra los números de las líneas
+set nowrap " No dividir la línea si es muy larga
+set cursorline " Resalta la línea actual
+set colorcolumn=120 " Muestra la columna límite a 120 caracteres
+set nocompatible " Desactiva modo compatible
+filetype plugin on " Habilita plugin para tipos de archivos
+syntax on " Activa resaltado de sintaxis
+
+" Indentación a 2 espacios
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set shiftround
+set expandtab " Insertar espacios en lugar de <Tab>s
+set imrmguicolors " Activa true colors en la terminal
+
+"
+" PLUGINS: https://github.com/junegunn/vim-plug
+"
+
+" Specify a directory for plugins
+call plug#begin('~/.vim/plugged')
+" fzf
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+" Challenger-deep-theme: https://github.com/junegunn/vim-plug
+Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
+" NERDTree
+Plug 'preservim/nerdtree'
+" vimwiki
+Plug 'vimwiki/vimwiki'
+" Initialize plugin system
+call plug#end()
+
+"
+" THEME:
+"
+colorscheme challenger_deep
