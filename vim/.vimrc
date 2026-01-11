@@ -58,3 +58,8 @@ endif
 " Lightline Configuration"
 set laststatus=2
 let g:lightline = { 'colorscheme': 'challenger_deep'}
+
+" Spell Check Configuration
+set spell
+set spelllang=en,es
+set spellsuggest=best,9 
