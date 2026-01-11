@@ -37,7 +37,7 @@ Plug 'vimwiki/vimwiki'
 call plug#end()
 
 "
-" Theme Configuration ---
+" THEME: Challenger Deep
 "
 
 " Enable true color support for terminal Vim
@@ -55,7 +55,7 @@ else
   echomsg "Challenger Deep theme not found, using default."
 endif
 
-" Lightline Configuration"
+" Lightline Configuration
 set laststatus=2
 let g:lightline = { 'colorscheme': 'challenger_deep'}
 
