@@ -39,7 +39,7 @@ call plug#end()
 "
 
 " Enable true color support for terminal Vim
-if has(termguicolors')
+if has('termguicolors')
   set termguicolors
 endif
 
