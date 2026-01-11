@@ -16,7 +16,6 @@ set shiftwidth=2
 set softtabstop=2
 set shiftround
 set expandtab " Insertar espacios en lugar de <Tab>s
-set imrmguicolors " Activa true colors en la terminal
 
 "
 " PLUGINS: https://github.com/junegunn/vim-plug
