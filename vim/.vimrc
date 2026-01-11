@@ -35,6 +35,20 @@ Plug 'vimwiki/vimwiki'
 call plug#end()
 
 "
-" THEME:
+" Theme Configuration ---
 "
-colorscheme challenger_deep
+
+" Enable true color support for terminal Vim
+if has(termguicolors')
+  set termguicolors
+endif
+
+" Check if the challenger_deep colorscheme file is available
+if filereadable(expand('~/.vim/./plugged/challenger-deep/colors/challenger_deep.vim'))
+  " If found, set the colorscheme
+  colorscheme challenger_deep
+else
+  " If not found, fall back to a default colorscheme and provide a message
+  colorscheme default
+  echomsg "Challenger Deep theme not found, using default."
+endif
