@@ -54,3 +54,7 @@ else
   colorscheme default
   echomsg "Challenger Deep theme not found, using default."
 endif
+
+" Lightline Configuration"
+set laststatus=2
+let g:lightline = { 'colorscheme': 'challenger_deep'}
