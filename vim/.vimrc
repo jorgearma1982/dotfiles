@@ -23,13 +23,15 @@ set expandtab " Insertar espacios en lugar de <Tab>s
 
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
-" fzf
+" fzf: https://github.com/junegunn/fzf.vim
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-" Challenger-deep-theme: https://github.com/junegunn/vim-plug
+" Challenger-deep-theme: https://github.com/challenger-deep-theme/vim
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
-" NERDTree
+" lightline.vim: https://github.com/itchyny/lightline.vim
+Plug 'itchyny/lightline.vim'
+" NERDTree: https://github.com/preservim/nerdtree
 Plug 'preservim/nerdtree'
-" vimwiki
+" vimwiki: https://github.com/vimwiki/vimwiki
 Plug 'vimwiki/vimwiki'
 " Initialize plugin system
 call plug#end()
