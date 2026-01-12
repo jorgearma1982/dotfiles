@@ -2,5 +2,13 @@
     "workbench.colorTheme": "Dracula At Dusk",
     "editor.dropIntoEditor.preferences": [],
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
-    "redhat.telemetry.enabled": false
+    "redhat.telemetry.enabled": false,
+    "git.autofetch": true,
+    "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.external.osxExec": "kitty",
+    "editor.codeActionsOnSave": {
+
+    }
 }
