@@ -1,3 +1,6 @@
 {
-    "workbench.colorTheme": "Dracula At Dusk"
+    "workbench.colorTheme": "Dracula At Dusk",
+    "editor.dropIntoEditor.preferences": [],
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "redhat.telemetry.enabled": false
 }
