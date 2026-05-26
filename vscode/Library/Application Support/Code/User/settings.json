@@ -10,5 +10,7 @@
     "terminal.external.osxExec": "kitty",
     "editor.codeActionsOnSave": {
 
-    }
+    },
+    "geminicodeassist.project": "kronops-shared",
+    "extensions.autoUpdate": false
 }
