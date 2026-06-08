@@ -113,7 +113,7 @@ alias zre="source ~/.zshrc"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Cargar envs
-source "$HOME/.local/bin/env"
+[[ ! -f ~/.local/bin/env ]] || source ~/.local/bin/env
 
 # Local aliases
 [[ ! -f ~/.aliases.zsh ]] || source ~/.aliases.zsh
