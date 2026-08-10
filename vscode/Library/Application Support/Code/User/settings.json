@@ -12,5 +12,5 @@
 
     },
     "geminicodeassist.project": "kronops-shared",
-    "extensions.autoUpdate": false
+    "extensions.autoUpdate": "off"
 }
